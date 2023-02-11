@@ -2,10 +2,19 @@ body{
     margin:0;
     background-color:#edf05c;
 }
+figure{
+    width: 610px;
+    height: 460px;
+}
+p{
+    margin-left:30px;
+    font-size:1.6em;
+    color:#d25189;
+}
 .menuHeadnav>ul{
  display:flex;
-    width:600px;
-    height:600px;
+    width:500px;
+    height:80px;
     border: 1px solid;
 }
 li{
@@ -15,15 +24,12 @@ li{
     border:1px solid;
     text-align:center;
     vertical-align:middle;
-    
-    
-    
+    padding:0px;
 }
 ul{
     list-style-type:none;
-    align-items:center;
-   
-   
+    align-items:start;
+    padding:0px;  
 }
 ul>li:nth-child(1){
     background-color:red;
