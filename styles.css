@@ -34,8 +34,8 @@ a{
     width:700px;
     height:100px;
     border:1px solid blue;
-    justify-content:space-evenly;
-    align-items:stretch;
+    justify-content:stretch;
+    align-items:center;
     align-content:center;
 }
 .sizeBlock{
@@ -43,13 +43,46 @@ a{
     width:70px;
     height:70px;
     border:1px solid blue;
-    background-color:#06f9d0
+    background-color:#f5f906
     
 }
 #b4{
-    position:static;
-    top:30px;
-    left:30px;
-    text-align:center;\
-    order:-1;
+    position:relative;
+    bottom:30px;
+    left:100px;
+    text-align:center;
+    order:0;
+}
+#b8{
+    position: absolute;
+    left: 570px;
+    top: 500px;
+    
+}
+#b2{
+    position: absolute;
+    left: 660px;
+    top: 300px;
+}
+    
+.gridTeach {
+    width: 500px;
+    height: 300px;
+    border: 1px solid blue;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 100px 50px 150px;
+    grid-template-rows: 59px 220px;
+   gap: 5px;
+    align-content: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    background-color: red;
+}
+.grid1{
+    
+    border: 3px groove #4ac0e8;
+    background-color: #41bd28;
+    
+    
 }
