@@ -29,3 +29,27 @@ li{
 a{
     text-decoration: none;
 }
+.mainBlock{
+    display:flex;
+    width:700px;
+    height:100px;
+    border:1px solid blue;
+    justify-content:space-evenly;
+    align-items:stretch;
+    align-content:center;
+}
+.sizeBlock{
+    
+    width:70px;
+    height:70px;
+    border:1px solid blue;
+    background-color:#06f9d0
+    
+}
+#b4{
+    position:static;
+    top:30px;
+    left:30px;
+    text-align:center;\
+    order:-1;
+}
