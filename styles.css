@@ -62,6 +62,9 @@ a{
 #b2{
     position: sticky;
     left: 600px;
+    position: absolute;
+    left: 660px;
+
     top: 300px;
 }
     
@@ -80,7 +83,6 @@ a{
     background-color: red;
 }
 .grid1{
-    
     border: 3px groove #4ac0e8;
     background-color: #41bd28; 
 }
@@ -89,4 +91,5 @@ hr{
 }
 #hearR{
     float: right;
+    background-color: #41bd28;
 }
