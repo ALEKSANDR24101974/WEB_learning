@@ -6,6 +6,7 @@
 header{
     width:100%;
     max-width:1000px;
+
     height:100px;
     border:1px;
     background-color:#ADD8E6;
@@ -58,3 +59,7 @@ video{
 .flex{
     display:flex;
 }
+=======
+    background-color:pink;
+}
+>>>>>>> c4b51075f68c0a6cb90158aa0b114133a4f2ed31
