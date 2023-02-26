@@ -58,8 +58,11 @@ video{
 }
 .flex{
     display:flex;
-}
-=======
     background-color:pink;
 }
->>>>>>> c4b51075f68c0a6cb90158aa0b114133a4f2ed31
+.textLes{
+    margin-top:80px ;
+    text-transform:uppercase;
+    text-transform: capitalize;
+    text-transform: lowercase;
+}
