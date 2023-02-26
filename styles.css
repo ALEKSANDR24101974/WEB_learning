@@ -3,73 +3,48 @@
   margin: 0;
   border: 0;
 }
+body{
+    max-width:1000px;
+    position:relative;
+    
+}
 header{
     width:100%;
     max-width:1000px;
-
     height:100px;
-    border:1px;
-    background-color:#ADD8E6;
-    opacity: 0.8;
-    position:absolute;
+    background-color:#4cb4d6;
+    
     z-index:20;
+    border-bottom:4px solid #0e79dd;
+    
 }
 ul{
     display:flex;
-    padding-left:80px;
     padding-top:66px;
     list-style-type:none;
-    
+    justify-content:center;  
 }
 li{
-    width:80px;
+    width:90px;
     height:30px;
     border:2px outset;
-    background-color:#eef22c;
+    background-color:white;
+    opacity:0.5;
+    text-align:center;
+    font-size:26px;
 }
 li:hover{
     background-color:#20B2AA;
 }
 li:active{
-    background-color:#9400D3;
+    background-color:white;
 }
-video{
-    padding-top:100px;
+
+
+.hy{
+    font-family:"verdana";
     
 }
-#radius{
-    width: 300px;
-    height: 50px;
-    border: 3px solid;
-    border-radius: 15px;
-    border-bottom-style: dotted;
-   
-}
-.dot{
-    width: 300px;
-    height: 50px;
-    border:3px solid red;
-    position:relative;
-    left:40px;
-    top:50px;
-    outline-color:blue;
-    outline-style:solid;
-    outline-width: 12px;
-}
-.flex{
-    display:flex;
-    background-color:pink;
-}
-.textLes{
-    margin-top:80px ;
-    text-transform:uppercase;
-    text-transform: capitalize;
-    text-indent:50px;
-    font-family:verdana;
-    font-style:italic;
-    font-weight:bold;
-    font-variant:small-caps;
-}
-.textLes:hover{
-    color:red;
+h1{
+  font-family: 'Climate Crisis', cursive;  
 }
