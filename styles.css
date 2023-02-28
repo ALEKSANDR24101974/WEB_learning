@@ -42,9 +42,44 @@ li:active{
 
 
 .hy{
-    font-family:"verdana";
+   font-family: "Saira ExtraCondensed ExtraLight", sans-serif;
     
 }
-h1{
-  font-family: 'Climate Crisis', cursive;  
+.hx{
+  font-family: "Comfortaa Bold",sans-serif;
+}
+.midle{
+    display: flex;
+    margin: 3px 0px ;
+}
+.leftBlock{
+    width: 200px;
+    height: 600px;
+    border-right: 1px solid grey;
+}
+.rightBlock{
+    width: 200px;
+    height: 600px;
+    border-left: 1px solid grey;
+}
+.centerBlock{
+    width: 596px;
+    height: 600px;
+    border-left: 1px solid grey;
+}
+.footer{
+    display: block;
+    width: 1000px;
+    height: 150px;
+    border: 1px solid grey;
+}
+.footerBlock{
+    width:100%;
+    height: 100%;
+    background-color: #0b8cef;
+}
+.textFooter{
+    font-size: 14px;
+    text-align: center;
+    padding-top:50px;
 }
