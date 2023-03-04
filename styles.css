@@ -18,13 +18,13 @@ header{
     border-bottom:4px solid #0e79dd;
     
 }
-ul{
+nav>ul{
     display:flex;
     padding-top:66px;
     list-style-type:none;
     justify-content:center;  
 }
-li{
+header li{
     width:90px;
     height:30px;
     border:2px outset;
@@ -33,10 +33,10 @@ li{
     text-align:center;
     font-size:26px;
 }
-li:hover{
+header li:hover{
     background-color:#20B2AA;
 }
-li:active{
+header li:active{
     background-color:white;
 }
 
@@ -51,11 +51,14 @@ li:active{
 .midle{
     display: flex;
     margin: 3px 0px ;
+    
 }
 .leftBlock{
     width: 200px;
     height: 600px;
-    border-right: 1px solid grey;
+    border-right: 1px solid grey;}
+.leftBlock>ul{
+    display: block;
 }
 .rightBlock{
     width: 200px;
@@ -69,17 +72,33 @@ li:active{
 }
 .footer{
     display: block;
-    width: 1000px;
+    width: 100%;
+    max-width:1000px;
     height: 150px;
-    border: 1px solid grey;
+    
 }
 .footerBlock{
-    width:100%;
-    height: 100%;
+   width:1000px;
+    height:150px;
     background-color: #0b8cef;
 }
 .textFooter{
     font-size: 14px;
+    
     text-align: center;
     padding-top:50px;
+}
+.leftBlock li{
+    width: 80px;
+    margin-bottom:20px;
+list-style-type: none;}
+
+li>a{
+    text-decoration: none;
+}
+
+
+
+.leftBlock ul{
+    margin-left: 20px;
 }
