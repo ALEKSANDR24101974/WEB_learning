@@ -106,3 +106,8 @@ li>a{
 .leftBlock ul{
     margin-left: 20px;
 }
+.centerBlock>img{
+    display: flex;
+    margin:30px auto;
+    
+}
