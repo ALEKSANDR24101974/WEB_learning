@@ -12,11 +12,9 @@ header{
     width:100%;
     max-width:1000px;
     height:100px;
-    background-color:#4cb4d6;
-    
+    background-color:#4cb4d6;   
     z-index:20;
-    border-bottom:4px solid #0e79dd;
-    
+    border-bottom:4px solid #0e79dd;   
 }
 nav>ul{
     display:flex;
@@ -51,6 +49,7 @@ header li:active{
 .midle{
     display: flex;
     margin: 3px 0px ;
+    background-color:#FFFAFA;
     
 }
 .leftBlock{
@@ -59,6 +58,9 @@ header li:active{
     border-right: 1px solid grey;}
 .leftBlock>ul{
     display: block;
+}
+.figura_1{
+    padding-left: 20px;
 }
 .rightBlock{
     width: 200px;
@@ -96,9 +98,11 @@ list-style-type: none;}
 li>a{
     text-decoration: none;
 }
-
-
-
+.logo{
+    position:absolute;
+    left:30px;
+    top:10px;
+}
 .leftBlock ul{
     margin-left: 20px;
 }
