@@ -76,8 +76,10 @@ header li:active{
     display: block;
     width: 100%;
     max-width:1000px;
-    height: 150px;
-    
+    height: 150px;  
+}
+a[target]{
+    background-color:red;
 }
 .footerBlock{
    width:1000px;
